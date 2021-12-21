@@ -49,7 +49,6 @@ const ProjectCard = ({ title, children, bg, image }: ProjectCardProps) => {
         paddingTop: `30px`,
         paddingBottom: `50px`
       }}>
-      <Image alt="" filename={image} />
     </div>
     <div sx={{ opacity: 0.85, textShadow: `0 2px 10px rgba(0, 0, 0, 0.3)` }}>{children}</div>
   </div>
